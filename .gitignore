@@ -1,0 +1,8 @@
+node_modules/
+**/.idea/
+dist/
+.DS_Store
+touch_data_front.iml.eslintcache 
+.stylelintcache
+.eslintcache
+package-lock.json
