@@ -5,12 +5,15 @@
     "main": "main.js",
     "scripts": {
         "start": "electron .",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "packager": "electron-packager ./ App --platform=win32 --arch=x64 --overwrite",
+        "packagerMac": "electron-packager ./ App --platform=darwin --overwrite"
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "electron": "^28.3.3"
+        "electron": "^28.3.3",
+        "electron-packager": "^15.2.0"
     },
     "dependencies": {}
 }
